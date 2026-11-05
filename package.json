@@ -1,0 +1,10 @@
+{
+  "name": "unzip-saju",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/export-pages.mjs",
+    "test": "node scripts/test.mjs",
+    "dev": "node scripts/serve.mjs"
+  }
+}
